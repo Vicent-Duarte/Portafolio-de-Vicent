@@ -324,17 +324,23 @@ span {
 
 .portafolio-layer a {
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 5rem;
-    height: 5rem;
-    background: var(--text-color);
+    justify-content: space-around;
+    align-items: first center;
+    width: 4rem;
+    height: 4rem;
+    background: var(--bg-color);
     border-radius: 50%;
 }
 
 .portafolio-layer a i {
     font-size: 2rem;
-    color: var(--second-bg-color);
+    color: var(--text-color);
+}
+
+.portafolio-links {
+    font-size: 3rem;
+    display: flex;
+    gap: 15px;
 }
 
 .contact {
