@@ -382,6 +382,11 @@ span {
     resize: none;
 }
 
+.contact form input::placeholder,
+.contact form textarea::placeholder {
+    color: #ccc;
+}
+
 .contact form .btn {
     margin-top: 2rem;
     cursor: pointer;
