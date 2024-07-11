@@ -47,7 +47,7 @@ ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Desarrollador WED', 'Desarrollador FRONTEN', 'Desarrollador BACKEND'], 
+    strings: ['Desarrollador WED','Analista de Datos Profecional', 'Desarrollador FRONTEN', 'Desarrollador BACKEND'], 
     typeSpeed: 100, 
     backSpeed: 100,
     backDelay: 1000,
